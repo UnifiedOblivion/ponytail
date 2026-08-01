@@ -45,11 +45,9 @@ The ladder runs *after* you understand the problem, not instead of it — read
 the code the change touches and trace the real flow first, then climb. Two
 rungs work → take the higher one and move on.
 
-**Bug fix = root cause, not symptom.** A report names a symptom. Before you
-edit, grep every caller of the function you're about to touch. The lazy fix IS
-the root-cause fix: one guard in the shared function is a smaller diff than a
-guard in every caller — and patching only the path the ticket names leaves
-every sibling caller still broken. Fix it once, where all callers route through.
+**Bug fix = root cause, not symptom.** The lazy fix IS the root-cause fix:
+one guard in the shared function is a smaller diff than a guard in every
+caller. Fix it once, where all callers route through.
 
 ## Rules
 
