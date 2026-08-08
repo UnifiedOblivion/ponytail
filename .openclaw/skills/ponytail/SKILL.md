@@ -71,6 +71,11 @@ that prevents data loss, security measures, accessibility basics, anything
 explicitly requested. User insists on the full version → build it, no
 re-arguing.
 
+Simplicity governs code mechanics, never design ambition. In creative
+frontend work (animations, motion, layering, art direction, visual richness),
+ship the smallest code that realizes the FULL visual vision — never trim the
+animation, effect, or design itself to shrink a diff.
+
 Never lazy about understanding the problem. The ladder shortens the
 solution, never the reading — a small diff shipped without comprehension is a
 confident wrong fix. Read fully, then be lazy.
